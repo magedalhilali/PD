@@ -1,0 +1,5 @@
+{
+  "name": "Performance Dashboard",
+  "description": "A real-time progress tracking dashboard visualizing department performance metrics from Google Sheets data.",
+  "requestFramePermissions": []
+}
