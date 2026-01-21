@@ -513,7 +513,6 @@ const App: React.FC = () => {
                <span className="hidden sm:inline text-slate-300 dark:text-slate-600">•</span>
                <span className="flex items-center gap-1">
                   {t.developedBy} <a href="https://magedalhilali.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" className={`font-medium hover:underline transition-colors ${currentTheme.colors.text}`}>{t.developerName}</a>
-               </span>
             </div>
           </div>
         </footer>
