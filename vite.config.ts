@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     return {
         // IMPORTANT: Replace 'repo-name' with your actual GitHub repository name.
         // If your repo is https://github.com/user/my-app, this should be '/my-app/'
-        base: '/repo-name/', 
+        base: '/PD/', 
 
         server: {
             port: 3000,
