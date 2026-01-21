@@ -51,10 +51,10 @@ export const fetchSheetData = async (): Promise<DepartmentData[]> => {
                 };
               });
 
-              // Calculate Weighted Total
-              const totalScore = categories.reduce((sum, cat) => {
-                return sum + (cat.value * cat.weight);
-              }, 0);
+              // Calculate Simple Average
+const totalScore = categories.length > 0 
+  ? categories.reduce((sum, cat) => sum + cat.value, 0) / categories.length 
+  : 0;
 
               return {
                 id,
