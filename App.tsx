@@ -511,9 +511,10 @@ const App: React.FC = () => {
                <span className="hidden sm:inline text-slate-300 dark:text-slate-600">•</span>
                <span>{t.subtitle} {language === 'en' ? 'MG Tools' : ''} © {new Date().getFullYear()}</span>
                <span className="hidden sm:inline text-slate-300 dark:text-slate-600">•</span>
-               <span className="flex items-center gap-1">
-                  {t.developedBy} <a href="https://magedalhilali.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline transition-colors text-indigo-600 dark:text-indigo-400">{t.developerName}</a> </span>
-          </div>
+<span className="flex items-center gap-1">
+    {t.developedBy} <a href="https://magedalhilali.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline transition-colors text-indigo-600 dark:text-indigo-400">{t.developerName}</a>
+</span>
+</div>
         </footer>
       </div>
     </div>
