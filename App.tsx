@@ -503,7 +503,7 @@ const App: React.FC = () => {
 
         </main>
 
-        {/* Footer */}
+                {/* Footer */}
         <footer className="w-full py-6 mt-auto text-center border-t border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto px-4 text-sm text-slate-500 dark:text-slate-400 flex flex-col items-center justify-center gap-1">
             <div className="flex flex-wrap justify-center items-center gap-x-3 gap-y-1">
@@ -511,10 +511,11 @@ const App: React.FC = () => {
                <span className="hidden sm:inline text-slate-300 dark:text-slate-600">•</span>
                <span>{t.subtitle} {language === 'en' ? 'MG Tools' : ''} © {new Date().getFullYear()}</span>
                <span className="hidden sm:inline text-slate-300 dark:text-slate-600">•</span>
-<span className="flex items-center gap-1">
-    {t.developedBy} <a href="https://magedalhilali.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline transition-colors text-indigo-600 dark:text-indigo-400">{t.developerName}</a>
-</span>
-</div>
+                <span className="flex items-center gap-1">
+                    {t.developedBy} <a href="https://magedalhilali.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline transition-colors text-indigo-600 dark:text-indigo-400">{t.developerName}</a>
+                </span>
+            </div>
+          </div>
         </footer>
       </div>
     </div>
